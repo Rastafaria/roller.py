@@ -4,9 +4,13 @@ Simple CLI tool for simulating dice rolls and obtaining useful information from 
 Usage: python roller.py [-h] [--count comparator comparand] [--filter comparator comparand] [--reroll comparator comparand] rolls size
 
 count: Specify whether or not to count and with what criteria. First argument is a string [">","<","=",">=","<="] denoting which comparator to use, and second argument is an integer to compare rolls to.
+
 filter: Hides all rolls that do not meet the criteria. Will not hide first set of rolls if rerolling. First argument is a string [">","<","=",">=","<="] denoting which comparator to use, and second argument is an integer to compare rolls to.
+
 reroll: Allows you to do a second batch of rolls on rolls that meet the criteria. First argument is a string [">","<","=",">=","<="] denoting which comparator to use, and second argument is an integer to compare rolls to.
+
 rolls: The amount of dice to be rolled. Argument is an integer.
+
 size: Amount of sides on the dice to be rolled. Argument is an integer.
 
 Examples:
